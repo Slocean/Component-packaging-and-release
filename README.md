@@ -182,14 +182,14 @@ export default defineConfig({
 ### tsup 配置项说明
 
 | 配置项      | 说明               | 示例值                   |
-| ----------- | ------------------ | ------------------------ | ------ |
+| ----------- | ------------------ | ------------------------ |
 | `entry`     | 入口文件           | `['src/index.ts']`       |
 | `outDir`    | 输出目录           | `'dist'`                 |
 | `dts`       | 生成类型声明       | `true`                   |
 | `sourcemap` | 生成 source map    | `true`                   |
 | `clean`     | 构建前清理输出目录 | `true`                   |
-| `minify`    | 压缩方式           | `'esbuild'               | false` |
-| `splitting` | 代码分割           | `true                    | false` |
+| `minify`    | 压缩方式           | `'esbuild'` 或 `false`   |
+| `splitting` | 代码分割           | `true` 或 `false`        |
 | `format`    | 输出格式           | `['cjs', 'esm', 'iife']` |
 | `external`  | 外部依赖（不打包） | `['vue']`                |
 | `treeshake` | 树摇优化           | `true`                   |
