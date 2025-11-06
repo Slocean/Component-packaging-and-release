@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git push -u origin main)",
+      "Bash(git pull origin main)",
+      "Bash(git pull origin main --allow-unrelated-histories)",
+      "Bash(git push origin main)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
